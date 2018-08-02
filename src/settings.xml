@@ -52,6 +52,16 @@
                         <enabled>true</enabled>
                     </snapshots>
                 </pluginRepository>
+                <pluginRepository>
+                    <id>dca</id>
+                    <url>http://localhost:8081</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </pluginRepository>
             </pluginRepositories>
         </profile>
     </profiles>
