@@ -22,7 +22,7 @@
                                     <groupId>com.cgi.smog.dca</groupId>
                                     <artifactId>dca-distribution</artifactId>
                                     <version>1.0.0</version>
-                                    <type>.tar.gz</type>
+                                    <type>tar.gz</type>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${project.build.directory}</outputDirectory>
                                 </artifactItem>
