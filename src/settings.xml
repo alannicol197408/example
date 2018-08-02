@@ -6,8 +6,8 @@
     <mirrors>
         <mirror> <!--Send all requests to the public group -->
             <id>nexus</id>
-            <mirrorOf>*</mirrorOf>
-            <url>http://localhost:8081/repository/dca</url>
+            <mirrorOf>*,!dca</mirrorOf>
+            <url>http://uk.maven.org/maven2</url>
         </mirror>
     </mirrors>
     <activeProfiles>
@@ -32,7 +32,7 @@
                 </repository>
                 <repository>
                     <id>dca</id>
-                    <url>http://localhost:8081</url>
+                    <url>http://localhost:8081/repository/dca</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
